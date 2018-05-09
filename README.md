@@ -1,5 +1,5 @@
 # Git-Training
-Git shortcuts
+## Git shortcuts
 
 git help
 git help config 
@@ -34,5 +34,8 @@ git status list information on the folder and files
 move the file to the git staging area UNO git staging area 
 git add
 git commit -m "message that you want to add"
+
+after git status you can do a shortcut 
+git commit -am "Update message"
 
 clear
