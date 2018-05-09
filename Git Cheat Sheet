@@ -1,0 +1,56 @@
+GIT:
+-------------
+git config --global credential.helper wincred
+git config --global user.signingkey key
+git config --global commit.gpgsign true
+
+git remote add upstream https://github.com/jhipster/generator-jhipster.git
+git remote -v
+git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+git branch --set-upstream-to=origin/master
+
+$ git checkout tags/<tag_name>
+
+Assuming you did not commit the file, or add it to the index, then:
+
+git checkout filename
+
+Assuming you added it to the index, but did not commit it, then:
+
+git reset HEAD filename
+git checkout filename
+
+Assuming you did commit it, then:
+
+git checkout origin/master filename
+
+blow away all commits from your branch (VERY DESTRUCTIVE):
+
+git reset --hard origin/master
+
+reset to last commit
+
+git reset --hard HEAD
+
+skip CI by adding to commit: [ci skip]
+
+remove untracked files:
+git clean -fd -n
+git clean -fd
+
+JEKYL:
+-------------
+bundle exec jekyll serve
+
+JSON RESUME:
+----------------
+resume publish --theme wb-elegant
+
+NPM:
+-------------
+npm config set msvs_version 2012 --global
+
+mongo
+----------------
+
+win: C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe --dbpath "D:\Projects\mongodb\data"
