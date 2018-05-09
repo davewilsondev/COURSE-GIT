@@ -32,4 +32,7 @@ git status list information on the folder and files
 ---
 
 move the file to the git staging area UNO git staging area 
+git add
+git commit -m "message that you want to add"
 
+clear
