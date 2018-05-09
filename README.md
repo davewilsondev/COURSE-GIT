@@ -2,8 +2,9 @@
 Git shortcuts
 
 git help
-
 git help config 
+
+---
 
 pwd = present working directory 
 cd = change directory 
@@ -11,7 +12,7 @@ cd = change directory
 git config --global user.name "Dave Wilson" (This adds my name)
 git config --global user.email "davewilson@live.co.uk" (This adds my email)
 
-To check if this has worked and these values have been input
+"""To check if this has worked and these values have been input"""
 git config --global --list
 
 print out the contents of a file in directory
