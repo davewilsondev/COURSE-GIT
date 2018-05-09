@@ -25,3 +25,10 @@ ls = same as dir in windows i guess it lets you know what is in the folder
 ls -a = 
 
 notepad filename and filetype = creates new or opens existing file in the folder. 
+
+git status list information on the folder and files 
+
+---
+
+move the file to the git staging area UNO git staging area 
+
