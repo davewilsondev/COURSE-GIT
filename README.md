@@ -1,5 +1,5 @@
-# Git-Training
-## Git shortcuts
+#### Git-Training
+##### Git shortcuts
 
 git help
 git help config 
@@ -8,6 +8,8 @@ git help config
 
 pwd = present working directory 
 cd = change directory 
+
+***
 
 git config --global user.name "Dave Wilson" (This adds my name)
 git config --global user.email "davewilson@live.co.uk" (This adds my email)
@@ -33,6 +35,10 @@ git status list information on the folder and files
 
 move the file to the git staging area UNO git staging area 
 git add
+
+if you have multiple files out then you can use 
+git add .
+
 git commit -m "message that you want to add"
 
 after git status you can do a shortcut 
